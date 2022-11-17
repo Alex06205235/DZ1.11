@@ -2,25 +2,25 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public float BounceSpeed;
+    public float bounceSpeed;
     public Rigidbody rigidbody;
-    public Platform CurrentPlatform;
-    public Game Game;
-    
+    public Platform currentPlatform;
+    public Game game;
+
 
     public void ReachFinish()
     {
-        Game.OnPlayerReacheFinish();
+        game.OnPlayerReacheFinish();
         rigidbody.velocity = Vector3.zero;
     }
     public void Bounce()
     {
-        rigidbody.velocity = new Vector3(0, BounceSpeed, 0);
+        rigidbody.velocity = new Vector3(0, bounceSpeed, 0);
     }
 
     public void Die()
     {
-        Game.OnPlayerDied();
+        game.OnPlayerDied();
         rigidbody.velocity = Vector3.zero;
     }
 }

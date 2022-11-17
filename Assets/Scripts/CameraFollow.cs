@@ -2,15 +2,15 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public Player Player;
-    public Vector3 PlatformToCameraOffset;
-    public float Speed;
+    public Player player;
+    public Vector3 platformToCameraOffset;
+    public float speed;
     
 
     public void Update()
     {
-        if (Player.CurrentPlatform == null) return;
-        Vector3 targetPosition = Player.CurrentPlatform.transform.position + PlatformToCameraOffset;
-        transform.position = Vector3.MoveTowards(transform.position, targetPosition, Speed * Time.deltaTime);
+        if (player.currentPlatform == null) return;
+        Vector3 targetPosition = player.currentPlatform.transform.position + platformToCameraOffset;
+        transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
     }
 }

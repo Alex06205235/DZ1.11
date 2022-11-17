@@ -3,12 +3,28 @@ using UnityEngine;
 
 public class BestText : MonoBehaviour
 {
-    public TextMeshProUGUI Text;
-    public static int best;
+    public TextMeshProUGUI bestScoreText;
+    private const string BestScoresKey = "BestScores";
+
+    private static int BestScores
+    {
+        get => PlayerPrefs.GetInt(BestScoresKey, 0);
+        set
+        {
+            PlayerPrefs.SetInt(BestScoresKey, value);
+            PlayerPrefs.Save();
+        }
+    }
 
     private void Update()
     {
-        Text.text = "Best:" + best ;
+        var scores = ScoresText.Scores;
+        if (scores <= BestScores)
+        {
+            bestScoreText.text = "Best: " + BestScores;
+            return;
+        };
+        BestScores = scores;
+        bestScoreText.text = "Best: " + BestScores;
     }
-
 }

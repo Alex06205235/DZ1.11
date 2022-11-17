@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 9673dcdfbbab32d48a8c69d477b2b1d0, type: 3}
       propertyPath: m_RootOrder
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9673dcdfbbab32d48a8c69d477b2b1d0, type: 3}
       propertyPath: m_LocalScale.y
@@ -98,6 +98,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2033f6f72929de349acf443160d42a8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsGood: 1
-  BadMaterial: {fileID: 2100000, guid: 4437fa9c07dea2e418238a58de00ca00, type: 2}
-  GoodMaterial: {fileID: 2100000, guid: ef5d2639990fada4fb5e3b000266d55e, type: 2}
+  isGood: 1
+  badMaterial: {fileID: 2100000, guid: 4437fa9c07dea2e418238a58de00ca00, type: 2}
+  goodMaterial: {fileID: 2100000, guid: ef5d2639990fada4fb5e3b000266d55e, type: 2}

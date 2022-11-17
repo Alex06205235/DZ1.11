@@ -5,14 +5,11 @@ using UnityEngine;
 public class BestTrigger : MonoBehaviour
 {
 
-    private void OnTriggerEnter(Collider Collision)
+    private void OnTriggerEnter(Collider collision)
     {
-        if (Collision.CompareTag("Player"))
+        if (collision.CompareTag("Player"))
         {
-            BestText.best++;
-            
+            ScoresText.Scores++;
         }
-
-
     }
 }

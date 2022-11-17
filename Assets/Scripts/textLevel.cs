@@ -4,13 +4,13 @@ using UnityEngine;
 public class textLevel : MonoBehaviour
 {
 
-    public TextMeshProUGUI Text;
-    public Game Game;
+    public TextMeshProUGUI text;
+    public Game game;
 
     private void Start()
     {
 
-        Text.text = "Level " + (Game.LevelIndex + 1).ToString();
+        text.text = "Level " + (game.LevelIndex + 1).ToString();
 
     }
 }

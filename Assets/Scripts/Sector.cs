@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class Sector : MonoBehaviour
 {
-    public bool IsGood = true;
-    public Material BadMaterial;
-    public Material GoodMaterial;
-
+    public bool isGood = true;
+    public Material badMaterial;
+    public Material goodMaterial;
+    
     private void Awake()
     {
         UpdateMaterial();
@@ -13,7 +13,7 @@ public class Sector : MonoBehaviour
     private void UpdateMaterial()
     {
         Renderer sectorRenderer = GetComponent<Renderer>();
-        sectorRenderer.sharedMaterial = IsGood ? GoodMaterial : BadMaterial;
+        sectorRenderer.sharedMaterial = isGood ? goodMaterial : badMaterial;
     }
     private void OnCollisionEnter(Collision collision)
     {
@@ -21,10 +21,10 @@ public class Sector : MonoBehaviour
         Vector3 normal = -collision.contacts[0].normal.normalized;
         float dot = Vector3.Dot(normal, Vector3.up);
         if (dot < 0.5) return;
-        if (IsGood)
+        if (isGood)
             player.Bounce();
         else
-           Debug.Log("Game over");
+            player.Die();
     }
     private void OnValidate()
     {
