@@ -9,7 +9,7 @@ public class ProgressBar : MonoBehaviour
 
     private float _startY;
     private float _minimumReachedY;
-    public float asseptableFinishPlayerDistance;
+    
     private void Start()
     {
         _startY = player.transform.position.y;
@@ -18,9 +18,9 @@ public class ProgressBar : MonoBehaviour
 
     private void Update()
     {
-        _startY = Mathf.Min(_minimumReachedY, player.transform.position.y);
-        float finishY = player.transform.position.y;
-        float t = Mathf.InverseLerp(_startY, finishY + asseptableFinishPlayerDistance, _minimumReachedY);
+        _startY = Mathf.Min(_minimumReachedY, Mathf.Abs(player.transform.position.y));
+        var currentPlayerPosition = player.transform.position.y;
+        var t = Mathf.InverseLerp(_startY, finishPlatform.position.y, currentPlayerPosition);
         slider.value = t;
     }
 }
