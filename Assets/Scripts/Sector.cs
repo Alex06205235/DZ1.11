@@ -21,10 +21,7 @@ public class Sector : MonoBehaviour
         Vector3 normal = -collision.contacts[0].normal.normalized;
         float dot = Vector3.Dot(normal, Vector3.up);
         if (dot < 0.5) return;
-        if (isGood)
-            player.Bounce();
-        else
-            player.Die();
+        player.Bounce();
     }
     private void OnValidate()
     {

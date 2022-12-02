@@ -2,32 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94d556fa-6a31-4c0c-a687-e702302b3931" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/NewBehaviourScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Finish Platform Variant.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Finish Platform.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Platform.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Platform.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DZ1.11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DZ1.11/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/Platform_All_Good.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Platform_All_Good.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/Platform_Bad_sector_1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Platform_Bad_sector_1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/Platform_Bad_sector_2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Platform_Bad_sector_2.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/Platform_Bad_sector_3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Platform_Bad_sector_3.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Platform_Finish.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Platform_Finish.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Platform_First.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Platform_First.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/finish_proba.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/sector.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/sector.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BestText.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BestText.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BestTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BestTrigger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controls.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controls.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelGeneration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelGeneration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Platform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Platform.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProgressBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProgressBar.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/finish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/finish.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/textLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/textLevel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/background.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,11 +20,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3dd5df5ef4974f29afeb2d3ba227c5da46a800/18/17da0373/IntPtr.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/59e7be63019b4518baaf30c24595423615d800/07/83a98a66/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/59e7be63019b4518baaf30c24595423615d800/46/775a5a1c/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
@@ -50,7 +30,10 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/61f216b80c5a419a910eaa074319457b7400/6a/0102f6fc/SendMouseEvents.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/61f216b80c5a419a910eaa074319457b7400/ff/c48d153e/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/af456b55877c4c69946b8d11ac11c8ca3c00/09/90837718/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c0a0081944dc448e919ec0b55f245bb01ac00/9e/0c7ceb34/Collision.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Game.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Slider.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -60,16 +43,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Discover.Launch.Via.Unity": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "preferences.sourceCode.C#",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.26071844&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;yiiguxing.plugin.translate&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.1.21f1\Editor\Unity.exe" />
@@ -89,10 +73,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="12248">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="9952">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="12248" />
+      <option name="pid" value="9952" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -110,8 +94,45 @@
       <updated>1668615402308</updated>
       <workItem from="1668615412184" duration="279000" />
       <workItem from="1668615768512" duration="317000" />
-      <workItem from="1668616144920" duration="23792000" />
+      <workItem from="1668616144920" duration="26949000" />
+      <workItem from="1668673483803" duration="3785000" />
+      <workItem from="1668996060489" duration="1257000" />
+      <workItem from="1669004920487" duration="949000" />
+      <workItem from="1669249052699" duration="90000" />
+      <workItem from="1669258506209" duration="3542000" />
+      <workItem from="1669392223275" duration="2791000" />
+      <workItem from="1669518184423" duration="9724000" />
+      <workItem from="1669822594073" duration="17653000" />
     </task>
+    <task id="LOCAL-00001" summary="Реализовано:&#10;&#10;- добавлен новый компонент для подсчета очков&#10;- исправлено сохранение лучшего счета&#10;- переработан UI очков">
+      <created>1668670587719</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668670587719</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Реализовано:&#10;&#10;- добавлен новый компонент для подсчета очков&#10;- исправлено сохранение лучшего счета&#10;- переработан UI очков">
+      <created>1668670624212</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668670624212</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Обновлен gitignore">
+      <created>1668717656516</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668717656516</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Реализовано:&#10;&#10;- исправлена работа прогресс бара&#10;- добавлен фон для уровня">
+      <created>1668763534787</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668763534787</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +154,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Реализовано:&#10;&#10;- добавлен новый компонент для подсчета очков&#10;- исправлено сохранение лучшего счета&#10;- переработан UI очков" />
+    <MESSAGE value="Обновлен gitignore" />
+    <MESSAGE value="Реализовано:&#10;&#10;- исправлена работа прогресс бара&#10;- добавлен фон для уровня" />
+    <option name="LAST_COMMIT_MESSAGE" value="Реализовано:&#10;&#10;- исправлена работа прогресс бара&#10;- добавлен фон для уровня" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

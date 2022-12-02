@@ -32,6 +32,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform_Bad_sector_2
       objectReference: {fileID: 0}
+    - target: {fileID: 3430488024747211563, guid: 82c6459061ee3fe4da9698c87716ce2f, type: 3}
+      propertyPath: m_TagString
+      value: Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 3461726007586781070, guid: 82c6459061ee3fe4da9698c87716ce2f, type: 3}
+      propertyPath: m_TagString
+      value: Platform
+      objectReference: {fileID: 0}
     - target: {fileID: 4710571237763256155, guid: 82c6459061ee3fe4da9698c87716ce2f, type: 3}
       propertyPath: m_LocalScale.y
       value: 1.5
@@ -105,3 +113,21 @@ PrefabInstance:
     - {fileID: 7798015523124439560, guid: 82c6459061ee3fe4da9698c87716ce2f, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 82c6459061ee3fe4da9698c87716ce2f, type: 3}
+--- !u!1 &6784539427802877757 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3461726007586781070, guid: 82c6459061ee3fe4da9698c87716ce2f, type: 3}
+  m_PrefabInstance: {fileID: 7939005977140033715}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &7367957569718189517
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6784539427802877757}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.9794307, y: 0.39732623, z: 2.951476}
+  m_Center: {x: 0.019126892, y: -0.03500831, z: 0.086758316}
