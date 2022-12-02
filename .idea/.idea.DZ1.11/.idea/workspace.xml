@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94d556fa-6a31-4c0c-a687-e702302b3931" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DZ1.11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DZ1.11/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Platform_All_Good.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Platform_All_Good.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Platform_Bad_sector_1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Platform_Bad_sector_1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Platform_Bad_sector_2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Platform_Bad_sector_2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Platform_Bad_sector_3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Platform_Bad_sector_3.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BestText.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BestText.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BestTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BestTrigger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/background.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,17 +34,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.26071844&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;yiiguxing.plugin.translate&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Discover.Launch.Via.Unity": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "XThreadsFramesViewSplitterKey": "0.26071844",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "yiiguxing.plugin.translate",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.1.21f1\Editor\Unity.exe" />
@@ -102,7 +94,7 @@
       <workItem from="1669258506209" duration="3542000" />
       <workItem from="1669392223275" duration="2791000" />
       <workItem from="1669518184423" duration="9724000" />
-      <workItem from="1669822594073" duration="17653000" />
+      <workItem from="1669822594073" duration="21075000" />
     </task>
     <task id="LOCAL-00001" summary="Реализовано:&#10;&#10;- добавлен новый компонент для подсчета очков&#10;- исправлено сохранение лучшего счета&#10;- переработан UI очков">
       <created>1668670587719</created>
@@ -132,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668763534787</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Добавлено разрушение для плохих платформ, если игрок имеет супер скорость">
+      <created>1669975218676</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669975218676</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Добавлен новый бекграуд и материал">
+      <created>1669975342125</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669975342125</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +163,9 @@
     <MESSAGE value="Реализовано:&#10;&#10;- добавлен новый компонент для подсчета очков&#10;- исправлено сохранение лучшего счета&#10;- переработан UI очков" />
     <MESSAGE value="Обновлен gitignore" />
     <MESSAGE value="Реализовано:&#10;&#10;- исправлена работа прогресс бара&#10;- добавлен фон для уровня" />
-    <option name="LAST_COMMIT_MESSAGE" value="Реализовано:&#10;&#10;- исправлена работа прогресс бара&#10;- добавлен фон для уровня" />
+    <MESSAGE value="Добавлено разрушение для плохих платформ, если игрок имеет супер скорость" />
+    <MESSAGE value="Добавлен новый бекграуд и материал" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен новый бекграуд и материал" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
