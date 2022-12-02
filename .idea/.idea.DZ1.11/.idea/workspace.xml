@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94d556fa-6a31-4c0c-a687-e702302b3931" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="94d556fa-6a31-4c0c-a687-e702302b3931" name="Changes" comment="Fix">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DZ1.11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DZ1.11/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +93,7 @@
       <workItem from="1669258506209" duration="3542000" />
       <workItem from="1669392223275" duration="2791000" />
       <workItem from="1669518184423" duration="9724000" />
-      <workItem from="1669822594073" duration="21075000" />
+      <workItem from="1669822594073" duration="21660000" />
     </task>
     <task id="LOCAL-00001" summary="Реализовано:&#10;&#10;- добавлен новый компонент для подсчета очков&#10;- исправлено сохранение лучшего счета&#10;- переработан UI очков">
       <created>1668670587719</created>
@@ -138,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669975342125</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fix">
+      <created>1669985530820</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669985530820</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +171,8 @@
     <MESSAGE value="Реализовано:&#10;&#10;- исправлена работа прогресс бара&#10;- добавлен фон для уровня" />
     <MESSAGE value="Добавлено разрушение для плохих платформ, если игрок имеет супер скорость" />
     <MESSAGE value="Добавлен новый бекграуд и материал" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен новый бекграуд и материал" />
+    <MESSAGE value="Fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
