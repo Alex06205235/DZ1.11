@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-public class textLevel : MonoBehaviour
+public class TextLevel : MonoBehaviour
 {
 
     public TextMeshProUGUI text;
