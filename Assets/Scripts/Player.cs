@@ -12,23 +12,30 @@ public class Player : MonoBehaviour
     public bool isSupperSpeedActive;
     private bool _ignoreNextCollision;
     public float impulsForce = 5f;
-    //private Vector3 startPos;
-
-
+    public AudioSource finish;
+    public AudioSource plop;
+    public AudioSource fall;
+    public AudioSource loss;
     public void ReachFinish()
     {
+        finish.Play();
         game.OnPlayerReacheFinish();
         rigidbody.velocity = Vector3.zero;
     }
     public void Bounce()
     {
         rigidbody.velocity = new Vector3(0, bounceSpeed, 0);
+        plop.Play();
+        
     }
 
     public void Die()
-    {
+    { 
+        
         game.OnPlayerDied();
+        loss.Play();
         rigidbody.velocity = Vector3.zero;
+        
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -52,12 +59,13 @@ public class Player : MonoBehaviour
 
         rigidbody.velocity = Vector3.zero;
         rigidbody.AddForce(Vector3.up * impulsForce, ForceMode.Impulse);
-
+        
         _ignoreNextCollision = true;
         Invoke("AllowCollision", .2f);
-
+        
         perfectPass = 0;
         isSupperSpeedActive = false;
+        
     }
 
     private void Update()

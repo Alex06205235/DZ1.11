@@ -4,6 +4,8 @@ using UnityEngine.SceneManagement;
 public class Game : MonoBehaviour
 {
     public Controls controls;
+    public AudioSource finish;
+    public AudioSource loss;
 
     public enum State
     {
@@ -20,6 +22,7 @@ public class Game : MonoBehaviour
         controls.enabled = false;
         Debug.Log("Game Over!");
         ScoresText.Scores = 0;
+        loss.Play();
         ReloadLevel();
     }
 
@@ -29,7 +32,9 @@ public class Game : MonoBehaviour
         CurrneState = State.Won;
         LevelIndex++;
         controls.enabled = false;
+        finish.Play();
         Debug.Log("You won");
+        
         ReloadLevel();
     }
 
@@ -46,5 +51,6 @@ public class Game : MonoBehaviour
     public void ReloadLevel() 
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        
     }
 }

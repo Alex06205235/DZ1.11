@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2386147720214912647, guid: 82c6459061ee3fe4da9698c87716ce2f, type: 3}
+      propertyPath: plop
+      value: 
+      objectReference: {fileID: 8766679113444228893, guid: 19eaab6f0ce48294ea88d1589d576b94, type: 3}
     - target: {fileID: 3430488024747211563, guid: 82c6459061ee3fe4da9698c87716ce2f, type: 3}
       propertyPath: m_Name
       value: Platform_All_Good

@@ -6,6 +6,7 @@ public class Platform : MonoBehaviour
         if (other.TryGetComponent(out Player player))
         {
             player.currentPlatform = this;
+            
         }
 
     }

@@ -5,7 +5,7 @@ public class Sector : MonoBehaviour
     public bool isGood = true;
     public Material badMaterial;
     public Material goodMaterial;
-    
+
     private void Awake()
     {
         UpdateMaterial();
