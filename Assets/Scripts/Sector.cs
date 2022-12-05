@@ -1,3 +1,4 @@
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class Sector : MonoBehaviour
@@ -22,6 +23,7 @@ public class Sector : MonoBehaviour
         float dot = Vector3.Dot(normal, Vector3.up);
         if (dot < 0.5) return;
         player.Bounce();
+      
     }
     private void OnValidate()
     {

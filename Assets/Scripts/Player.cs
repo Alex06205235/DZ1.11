@@ -12,15 +12,16 @@ public class Player : MonoBehaviour
     public bool isSupperSpeedActive;
     private bool _ignoreNextCollision;
     public float impulsForce = 5f;
-    public AudioSource finish;
     public AudioSource plop;
-    public AudioSource fall;
-    public AudioSource loss;
+    public AudioClip finish;
+    
+
     public void ReachFinish()
     {
-        finish.Play();
+        
         game.OnPlayerReacheFinish();
         rigidbody.velocity = Vector3.zero;
+        
     }
     public void Bounce()
     {
@@ -30,10 +31,9 @@ public class Player : MonoBehaviour
     }
 
     public void Die()
-    { 
+    {
         
         game.OnPlayerDied();
-        loss.Play();
         rigidbody.velocity = Vector3.zero;
         
     }
@@ -55,6 +55,7 @@ public class Player : MonoBehaviour
         else if (collision.gameObject.TryGetComponent(out Sector sector))
         {
             if (!sector.isGood) Die();
+            
         }
 
         rigidbody.velocity = Vector3.zero;
