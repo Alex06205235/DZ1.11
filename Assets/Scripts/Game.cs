@@ -22,7 +22,6 @@ public class Game : MonoBehaviour
         if (CurrneState != State.Playing) return;
         StartCoroutine (ReloadLevelAndPlayMusic(loss));
         CurrneState = State.Loss;
-        controls.enabled = false;
         Debug.Log("Game Over!");
         ScoresText.Scores = 0;
     }

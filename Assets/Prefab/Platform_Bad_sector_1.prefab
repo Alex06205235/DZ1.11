@@ -5,7 +5,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1295044153966341660, guid: 82c6459061ee3fe4da9698c87716ce2f, type: 3}
@@ -20,6 +20,10 @@ PrefabInstance:
       propertyPath: isGood
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2031466287367405178, guid: 82c6459061ee3fe4da9698c87716ce2f, type: 3}
+      propertyPath: badMaterial
+      value: 
+      objectReference: {fileID: -876546973899608171, guid: 055f8c09146797845b6e7583b2691db5, type: 3}
     - target: {fileID: 2386147720214912647, guid: 82c6459061ee3fe4da9698c87716ce2f, type: 3}
       propertyPath: plop
       value: 
@@ -28,6 +32,10 @@ PrefabInstance:
       propertyPath: IsGood
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2609135810787177761, guid: 82c6459061ee3fe4da9698c87716ce2f, type: 3}
+      propertyPath: badMaterial
+      value: 
+      objectReference: {fileID: -876546973899608171, guid: 055f8c09146797845b6e7583b2691db5, type: 3}
     - target: {fileID: 3430488024747211563, guid: 82c6459061ee3fe4da9698c87716ce2f, type: 3}
       propertyPath: m_Name
       value: Platform_Bad_sector_1
@@ -44,6 +52,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 4869410542582423287, guid: 82c6459061ee3fe4da9698c87716ce2f, type: 3}
+      propertyPath: badMaterial
+      value: 
+      objectReference: {fileID: -876546973899608171, guid: 055f8c09146797845b6e7583b2691db5, type: 3}
+    - target: {fileID: 5178368955770094983, guid: 82c6459061ee3fe4da9698c87716ce2f, type: 3}
+      propertyPath: badMaterial
+      value: 
+      objectReference: {fileID: -876546973899608171, guid: 055f8c09146797845b6e7583b2691db5, type: 3}
     - target: {fileID: 5338066529239782881, guid: 82c6459061ee3fe4da9698c87716ce2f, type: 3}
       propertyPath: m_Name
       value: sector
@@ -51,7 +67,7 @@ PrefabInstance:
     - target: {fileID: 5842403785683694644, guid: 82c6459061ee3fe4da9698c87716ce2f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 4437fa9c07dea2e418238a58de00ca00, type: 2}
+      objectReference: {fileID: -876546973899608171, guid: 055f8c09146797845b6e7583b2691db5, type: 3}
     - target: {fileID: 7570788093974658927, guid: 82c6459061ee3fe4da9698c87716ce2f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -107,7 +123,12 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 992329878748407144, guid: 82c6459061ee3fe4da9698c87716ce2f, type: 3}
     - {fileID: 7798015523124439560, guid: 82c6459061ee3fe4da9698c87716ce2f, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3461726007586781070, guid: 82c6459061ee3fe4da9698c87716ce2f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7895921233496428502}
   m_SourcePrefab: {fileID: 100100000, guid: 82c6459061ee3fe4da9698c87716ce2f, type: 3}
 --- !u!1 &499616695072850636 stripped
 GameObject:
@@ -122,8 +143,16 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 499616695072850636}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Size: {x: 2.8385086, y: 0.46282816, z: 3.0037916}
   m_Center: {x: -0.047395825, y: -0.032756448, z: 0.047608256}
