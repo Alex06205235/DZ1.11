@@ -8,6 +8,16 @@ public class Game : MonoBehaviour
     public Controls controls;
     public AudioClip finish;
     public AudioClip loss;
+    public GameObject finish1;
+    public GameObject finish2;
+    ParticleSystem _part;
+    ParticleSystem _partS;
+
+    void Awake()
+    {
+        _part = finish1.GetComponent<ParticleSystem>();
+        _partS = finish2.GetComponent<ParticleSystem>();
+    }
 
     public enum State
     {
@@ -29,6 +39,8 @@ public class Game : MonoBehaviour
     public void OnPlayerReacheFinish()
     {
         if (CurrneState != State.Playing) return;
+        _partS.Play();
+        _part.Play();
         StartCoroutine (ReloadLevelAndPlayMusic(finish));
         CurrneState = State.Won;
         LevelIndex++;

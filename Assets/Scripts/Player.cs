@@ -25,6 +25,10 @@ public class Player : MonoBehaviour
     Material _playerMaterial;
     Material _tailMaterial;
     PlayerState _state;
+    public GameObject deathPlayer;
+    ParticleSystem _part;
+    ParticleSystem _partS;
+    public GameObject deathSector;
     
 
     void Awake()
@@ -32,6 +36,8 @@ public class Player : MonoBehaviour
         _playerMaterial = GetComponent<MeshRenderer>().material;
         _tailMaterial = GetComponent<TrailRenderer>().material;
         _state = PlayerState.Alive;
+        _part = deathPlayer.GetComponent<ParticleSystem>();
+        _partS = deathSector.GetComponent<ParticleSystem>();
     }
 
     public void ReachFinish()
@@ -55,6 +61,7 @@ public class Player : MonoBehaviour
         _state = PlayerState.Die;
         controls.enabled = false;
         StartCoroutine(BurnDownPlayer(-0.2f, 1.06f, game.OnPlayerDied));
+        _part.Play();
         // game.OnPlayerDied();
 
     }
@@ -80,6 +87,7 @@ public class Player : MonoBehaviour
             if (!collision.gameObject.CompareTag("Platform"))
             {
                 Destroy(collision.gameObject);
+                _partS.Play();
                 ScoresText.Scores++;
             }
              
